@@ -1,6 +1,6 @@
 <?php
 
-die('hola');
+//die('hola');
 
 use Illuminate\Http\Request;
 
