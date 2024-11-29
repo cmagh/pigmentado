@@ -4,6 +4,8 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
+use App\Http\Controllers\HomeController;
+
 Route::get('/', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
@@ -24,7 +26,5 @@ Route::middleware([
 });
 
 
-Route::get('/test', function () {
-    return 'hola';
-});
+Route::get('/test', [HomeController::class, 'index']);
 
