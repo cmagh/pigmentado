@@ -6,6 +6,11 @@ use Inertia\Inertia;
 
 use App\Http\Controllers\HomeController;
 
+
+Route::get('/menu', function () {
+    return view('menu');
+});
+
 Route::get('/', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
@@ -26,5 +31,9 @@ Route::middleware([
 });
 
 
-Route::get('/test', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/quienes-somos', [HomeController::class, 'index'])->name('aboutus');
+Route::get('/contactanos', [HomeController::class, 'index'])->name('contact');
+
+
 

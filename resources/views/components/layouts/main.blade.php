@@ -1,10 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <title>{{ $title ?? 'Todo Manager' }}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title></title>
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        
+
+        @vite(['resources/css/styles.css', 'resources/js/web/app.js'])
+        
     </head>
-    <body>
-        <h1>Todos</h1>
-        <hr/>
+    <body>        
         {{ $slot }}
     </body>
 </html>

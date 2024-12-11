@@ -1,3 +1,6 @@
 <x-layouts.main>
-  <h1>El inicio</h1>
+  <x-shared.header/>
+  <x-shared.hero/>
+  <x-shared.footer/>
+  
 </x-layouts.main>
