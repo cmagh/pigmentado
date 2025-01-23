@@ -8,7 +8,7 @@
     </ul>
     <ul>
       @foreach ($redes as $key => $value)
-        {{-- <li><a href="{{route($value)}}" target="_blank">{{  }}</a></li> --}}          
+        <x-dynamic-component :component="$value['icon']" w="6" h="6"/>  
       @endforeach
     </ul>
   </nav>

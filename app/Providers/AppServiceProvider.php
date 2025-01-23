@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Carbon\Carbon;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
 
@@ -20,25 +21,33 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        $phone = '74749286';
+
+        $fecha = Carbon::now();
 
         $menu = [
             'Inicio' => 'home',
-            'Quienes somos' => 'aboutus',
-            'Contactanos' => 'contact',
+            'Diseñar' => 'aboutus',
+            'Imprimir' => 'aboutus',
+            'Ofertas' => 'aboutus',
+            'Contactános' => 'contact',
         ];
 
         $redes = [
             'Facebook' => [
-
+                'icon' => 'icons.facebook',
+                'link' => '',
             ],
             'Whatsapp' => [
-
+                'icon' => 'icons.whatsapp',
+                'link' => $phone
             ]
-            ];
+        ];
+
     
-        // Compartir el array $menu en todas las vistas
+        
         View::share('menu', $menu);
         View::share('redes', $redes);
+        View::share('fecha', $fecha);
     }
 }

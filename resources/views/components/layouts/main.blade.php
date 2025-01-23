@@ -1,3 +1,6 @@
+@php
+    setlocale(LC_TIME, 'es_ES.UTF-8')
+@endphp
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -5,10 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title></title>
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
         
-
         @vite(['resources/css/styles.css', 'resources/js/web/app.js'])
         
     </head>

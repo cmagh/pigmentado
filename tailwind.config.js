@@ -21,11 +21,16 @@ export default {
                 'footer-menu': 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;',
             },
             colors:{
-                'pigmen-bg': '#0b051d',
-                'pigmen-green': '#C7EC0A',
-                'pigmen-blue': '#001DF2',
-                'pigmen-cyan': '#01DCFE',
-                'pigmen-bgs': '#edebfe',               
+                'pigmen-bg': '#0b061d',
+                'pigmen-green': '#beed00',
+                'pigmen-blue': '#001ef0',
+                'pigmen-cyan': '#01dcfa',
+                'pigmen-bgs': '#edebfe', 
+                'pigmen-purple':'#6c71a9'              
+            },
+            fontFamily:{
+                'aleo': ['Aleo', 'serif'],
+                'poppins': ['Poppins', 'san serif']
             }
         },
     },

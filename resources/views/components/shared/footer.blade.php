@@ -77,26 +77,19 @@
   </div>
 </footer>
 
-<nav class="sticky bottom-0 px-6 py-3 w-full flex items-center md:hidden justify-around bg-white shadow-footer-menu">
-  {{--
-    Whatsapp
-    Telefono
-    Logo
-    inicio
-    Menú
-  --}}
-  <a href="" class="text-xs flex flex-col items-center">
+<nav class="sticky bottom-0 px-6 py-3 w-full flex items-center md:hidden justify-around bg-white shadow-footer-menu footerMenu" id="footerMenu">  
+  <a href="{{route('home')}}" class="text-xs flex flex-col items-center">
     <x-icons.home w="6" h="6"/>
     Inicio
   </a>
-  <a href="" class="text-xs flex flex-col items-center">
+  <a href="tel:{{$redes['Whatsapp']['link']}}" class="text-xs flex flex-col items-center">
     <x-icons.phone w="6" h="6"/>
     Teléfono
   </a>
   <span class="bg-pigmen-bg p-2 rounded-lg">
     <x-logos.3 w="6" h="6"/>
   </span> 
-  <a href="" class="text-xs flex flex-col items-center">
+  <a href="https://wa.me/{{$redes['Whatsapp']['link']}}" target="_blank" class="text-xs flex flex-col items-center">
     <x-icons.whatsapp w="6" h="6"/>
     WhatsApp
   </a>
