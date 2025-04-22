@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PortfolioController;
 
 
 Route::get('/menu', function () {
@@ -31,9 +32,10 @@ Route::middleware([
 });
 
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/portafolio', [HomeController::class, 'index'])->name('home');
 Route::get('/quienes-somos', [HomeController::class, 'index'])->name('aboutus');
 Route::get('/contactanos', [HomeController::class, 'index'])->name('contact');
 
 
 
+Route::get('/', [PortfolioController::class, 'index'])->name('portfolio');

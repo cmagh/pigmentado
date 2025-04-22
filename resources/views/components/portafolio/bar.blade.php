@@ -1,0 +1,1 @@
+<div class="w-full h-full bg-gradient-to-r from-gradient-blue via-gradient-green to-gradient-pink"></div>
