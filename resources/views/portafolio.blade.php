@@ -71,7 +71,15 @@
               document.getElementById(e.target.dataset.container).classList.add('opacity-100')              
             });      
           })
+        })();
 
+        (() => {
+          //$('#categoriesCarrousel').slick({
+          //  infinite: false,
+          //  slidesToShow: 1,
+          //  centerMode: true,
+          //  variableWidth: true
+          //});
         })();
 
 

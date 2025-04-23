@@ -12,6 +12,7 @@ Route::get('/menu', function () {
     return view('menu');
 });
 
+/*
 Route::get('/', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
@@ -20,6 +21,7 @@ Route::get('/', function () {
         'phpVersion' => PHP_VERSION,
     ]);
 });
+*/
 
 Route::middleware([
     'auth:sanctum',
