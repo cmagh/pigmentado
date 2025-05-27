@@ -10,11 +10,11 @@
         <title>Portafolio - Pigmentado</title>        
         @vite(['resources/css/styles.css', 'resources/js/web/app.js'])
 
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css"/>
+        {{-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css"/> --}}
     </head>
     <body class="m-0">      
       <x-portafolio.background/>    
-      <div class="sticky flex flex-col h-screen" id="mainContainer">
+      <div class="sticky flex flex-col h-screen h-dvh" id="mainContainer">
         <div class="flex flex-col items-center justify-center relative grow">    
           <x-logos.1 w="64"/>    
           <h1 class="text-white text-4xl mt-10 tracking-widest font-bold">PORTAFOLIO</h1>
@@ -42,10 +42,11 @@
       </section>
 
 
-
+      {{--
       <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
       <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      --}}
 
       <script>
         (() => {

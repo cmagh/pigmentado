@@ -8,9 +8,9 @@
     font-family: "Aleo";
     font-style: normal;
     font-weight: 100;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-100.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-100.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-100.ttf")
+        url("/fonts/aleo/aleo-v14-latin-100.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-100italic - latin */
@@ -19,9 +19,9 @@
     font-family: "Aleo";
     font-style: italic;
     font-weight: 100;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-100italic.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-100italic.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-100italic.ttf")
+        url("/fonts/aleo/aleo-v14-latin-100italic.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-200 - latin */
@@ -30,9 +30,9 @@
     font-family: "Aleo";
     font-style: normal;
     font-weight: 200;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-200.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-200.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-200.ttf")
+        url("/fonts/aleo/aleo-v14-latin-200.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-200italic - latin */
@@ -41,9 +41,9 @@
     font-family: "Aleo";
     font-style: italic;
     font-weight: 200;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-200italic.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-200italic.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-200italic.ttf")
+        url("/fonts/aleo/aleo-v14-latin-200italic.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-300 - latin */
@@ -52,9 +52,9 @@
     font-family: "Aleo";
     font-style: normal;
     font-weight: 300;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-300.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-300.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-300.ttf")
+        url("/fonts/aleo/aleo-v14-latin-300.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-300italic - latin */
@@ -63,9 +63,9 @@
     font-family: "Aleo";
     font-style: italic;
     font-weight: 300;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-300italic.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-300italic.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-300italic.ttf")
+        url("/fonts/aleo/aleo-v14-latin-300italic.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-regular - latin */
@@ -74,9 +74,9 @@
     font-family: "Aleo";
     font-style: normal;
     font-weight: 400;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-regular.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-regular.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-regular.ttf")
+        url("/fonts/aleo/aleo-v14-latin-regular.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-italic - latin */
@@ -85,9 +85,9 @@
     font-family: "Aleo";
     font-style: italic;
     font-weight: 400;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-italic.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-italic.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-italic.ttf")
+        url("/fonts/aleo/aleo-v14-latin-italic.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-500 - latin */
@@ -96,9 +96,9 @@
     font-family: "Aleo";
     font-style: normal;
     font-weight: 500;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-500.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-500.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-500.ttf")
+        url("/fonts/aleo/aleo-v14-latin-500.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-500italic - latin */
@@ -107,9 +107,9 @@
     font-family: "Aleo";
     font-style: italic;
     font-weight: 500;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-500italic.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-500italic.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-500italic.ttf")
+        url("/fonts/aleo/aleo-v14-latin-500italic.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-600 - latin */
@@ -118,9 +118,9 @@
     font-family: "Aleo";
     font-style: normal;
     font-weight: 600;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-600.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-600.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-600.ttf")
+        url("/fonts/aleo/aleo-v14-latin-600.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-600italic - latin */
@@ -129,9 +129,9 @@
     font-family: "Aleo";
     font-style: italic;
     font-weight: 600;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-600italic.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-600italic.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-600italic.ttf")
+        url("/fonts/aleo/aleo-v14-latin-600italic.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-700 - latin */
@@ -140,9 +140,9 @@
     font-family: "Aleo";
     font-style: normal;
     font-weight: 700;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-700.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-700.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-700.ttf")
+        url("/fonts/aleo/aleo-v14-latin-700.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-700italic - latin */
@@ -151,9 +151,9 @@
     font-family: "Aleo";
     font-style: italic;
     font-weight: 700;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-700italic.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-700italic.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-700italic.ttf")
+        url("/fonts/aleo/aleo-v14-latin-700italic.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-800 - latin */
@@ -162,9 +162,9 @@
     font-family: "Aleo";
     font-style: normal;
     font-weight: 800;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-800.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-800.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-800.ttf")
+        url("/fonts/aleo/aleo-v14-latin-800.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-800italic - latin */
@@ -173,9 +173,9 @@
     font-family: "Aleo";
     font-style: italic;
     font-weight: 800;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-800italic.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-800italic.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-800italic.ttf")
+        url("/fonts/aleo/aleo-v14-latin-800italic.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-900 - latin */
@@ -184,9 +184,9 @@
     font-family: "Aleo";
     font-style: normal;
     font-weight: 900;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-900.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-900.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-900.ttf")
+        url("/fonts/aleo/aleo-v14-latin-900.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* aleo-900italic - latin */
@@ -195,9 +195,9 @@
     font-family: "Aleo";
     font-style: italic;
     font-weight: 900;
-    src: url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-900italic.woff2")
+    src: url("/fonts/aleo/aleo-v14-latin-900italic.woff2")
             format("woff2"),
-        url("https://pigmentado.com/fonts/aleo/aleo-v14-latin-900italic.ttf")
+        url("/fonts/aleo/aleo-v14-latin-900italic.ttf")
             format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
@@ -207,8 +207,8 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 100;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-100.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-100.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-100.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-100.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-100italic - latin */
 @font-face {
@@ -216,8 +216,8 @@
     font-family: "Poppins";
     font-style: italic;
     font-weight: 100;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-100italic.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-100italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-100italic.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-100italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-200 - latin */
 @font-face {
@@ -225,8 +225,8 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 200;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-200.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-200.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-200.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-200.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-200italic - latin */
 @font-face {
@@ -234,8 +234,8 @@
     font-family: "Poppins";
     font-style: italic;
     font-weight: 200;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-200italic.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-200italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-200italic.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-200italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-300 - latin */
 @font-face {
@@ -243,8 +243,8 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 300;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-300.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-300.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-300.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-300.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-300italic - latin */
 @font-face {
@@ -252,8 +252,8 @@
     font-family: "Poppins";
     font-style: italic;
     font-weight: 300;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-300italic.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-300italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-300italic.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-300italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-regular - latin */
 @font-face {
@@ -261,8 +261,8 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-regular.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-regular.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-italic - latin */
 @font-face {
@@ -270,8 +270,8 @@
     font-family: "Poppins";
     font-style: italic;
     font-weight: 400;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-italic.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-italic.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-500 - latin */
 @font-face {
@@ -279,8 +279,8 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-500.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-500.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-500.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-500.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-500italic - latin */
 @font-face {
@@ -288,8 +288,8 @@
     font-family: "Poppins";
     font-style: italic;
     font-weight: 500;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-500italic.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-500italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-500italic.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-500italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-600 - latin */
 @font-face {
@@ -297,8 +297,8 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-600.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-600.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-600.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-600.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-600italic - latin */
 @font-face {
@@ -306,8 +306,8 @@
     font-family: "Poppins";
     font-style: italic;
     font-weight: 600;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-600italic.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-600italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-600italic.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-600italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-700 - latin */
 @font-face {
@@ -315,8 +315,8 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-700.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-700.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-700.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-700.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-700italic - latin */
 @font-face {
@@ -324,8 +324,8 @@
     font-family: "Poppins";
     font-style: italic;
     font-weight: 700;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-700italic.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-700italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-700italic.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-700italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-800 - latin */
 @font-face {
@@ -333,8 +333,8 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 800;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-800.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-800.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-800.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-800.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-800italic - latin */
 @font-face {
@@ -342,8 +342,8 @@
     font-family: "Poppins";
     font-style: italic;
     font-weight: 800;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-800italic.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-800italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-800italic.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-800italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-900 - latin */
 @font-face {
@@ -351,8 +351,8 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 900;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-900.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-900.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-900.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-900.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* poppins-900italic - latin */
 @font-face {
@@ -360,8 +360,8 @@
     font-family: "Poppins";
     font-style: italic;
     font-weight: 900;
-    src: url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-900italic.woff2") format("woff2"),
-        url("https://pigmentado.com/fonts/poppins/poppins-v22-latin-900italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url("/fonts/poppins/poppins-v22-latin-900italic.woff2") format("woff2"),
+        url("/fonts/poppins/poppins-v22-latin-900italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 body {
