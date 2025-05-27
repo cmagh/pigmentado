@@ -36,7 +36,7 @@
       <section class="md:container md:mx-auto relative" id="ourClientsContainer">
         <h2>Nuestros Clientes</h2>
         <div>
-          logos
+          
         </div>
 
       </section>
@@ -50,7 +50,6 @@
       <script>
         (() => {
           const menuLinks = document.getElementById('categoriesMenu')
-
           menuLinks.addEventListener('click', e => {
             e.preventDefault()
 
@@ -72,17 +71,6 @@
             });      
           })
         })();
-
-        (() => {
-          //$('#categoriesCarrousel').slick({
-          //  infinite: false,
-          //  slidesToShow: 1,
-          //  centerMode: true,
-          //  variableWidth: true
-          //});
-        })();
-
-
       </script>
     </body>
 </html>

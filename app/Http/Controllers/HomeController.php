@@ -30,4 +30,10 @@ class HomeController extends Controller
 
         return view('home', [ 'mostWanted' =>  $mostWanted]);
     }
+
+
+    public function info(){
+        phpinfo();
+        die();
+    }
 }

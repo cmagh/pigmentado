@@ -41,3 +41,5 @@ Route::get('/contactanos', [HomeController::class, 'index'])->name('contact');
 
 
 Route::get('/', [PortfolioController::class, 'index'])->name('portfolio');
+
+Route::get('/info', [HomeController::class, 'info'])->name('info');
