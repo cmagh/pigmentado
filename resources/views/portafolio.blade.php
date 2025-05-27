@@ -14,7 +14,7 @@
     </head>
     <body class="m-0">      
       <x-portafolio.background/>    
-      <div class="sticky flex flex-col h-screen h-dvh" id="mainContainer">
+      <div class="sticky flex flex-col h-dvh" id="mainContainer">
         <div class="flex flex-col items-center justify-center relative grow">    
           <x-logos.1 w="64"/>    
           <h1 class="text-white text-4xl mt-10 tracking-widest font-bold">PORTAFOLIO</h1>
