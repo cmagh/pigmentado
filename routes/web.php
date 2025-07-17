@@ -8,12 +8,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PortfolioController;
 
 
-Route::get('/menu', function () {
-    return view('menu');
-});
 
-/*
-Route::get('/', function () {
+Route::get('/inertia', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
@@ -21,7 +17,7 @@ Route::get('/', function () {
         'phpVersion' => PHP_VERSION,
     ]);
 });
-*/
+
 
 Route::middleware([
     'auth:sanctum',

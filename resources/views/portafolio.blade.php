@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Portafolio - Pigmentado</title>        
-        @vite(['resources/css/styles.css', 'resources/js/web/app.js'])
+        @vite(['resources/css/styles.css', 'resources/js/web/portfolio.js'])
 
         {{-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css"/> --}}
     </head>
@@ -47,31 +47,5 @@
       <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
       --}}
-
-      <script>
-        (() => {
-          const menuLinks = document.getElementById('categoriesMenu')
-          menuLinks.addEventListener('click', e => {
-            e.preventDefault()
-
-            if(!e.target.matches('a')){
-              return
-            }
-
-            Array.from(document.getElementsByClassName('gridContainer')).forEach(item => {
-              item.classList.add('hidden')
-              item.classList.add('opacity-0')
-            })
-
-            document.getElementById(e.target.dataset.container).classList.remove('hidden')
-            document.getElementById(e.target.dataset.container).classList.add('grid')
-            
-            requestAnimationFrame(() => {
-              document.getElementById(e.target.dataset.container).classList.remove('opacity-0')
-              document.getElementById(e.target.dataset.container).classList.add('opacity-100')              
-            });      
-          })
-        })();
-      </script>
     </body>
 </html>
