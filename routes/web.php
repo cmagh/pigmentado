@@ -7,8 +7,6 @@ use Inertia\Inertia;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PortfolioController;
 
-
-
 Route::get('/inertia', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
@@ -18,6 +16,9 @@ Route::get('/inertia', function () {
     ]);
 });
 
+Route::get('/render', function () {
+    return Inertia::render('Render', ['name' => 'Miguel Angel']);
+});
 
 Route::middleware([
     'auth:sanctum',
@@ -34,8 +35,5 @@ Route::get('/portafolio', [HomeController::class, 'index'])->name('home');
 Route::get('/quienes-somos', [HomeController::class, 'index'])->name('aboutus');
 Route::get('/contactanos', [HomeController::class, 'index'])->name('contact');
 
-
-
 Route::get('/', [PortfolioController::class, 'index'])->name('portfolio');
-
 Route::get('/info', [HomeController::class, 'info'])->name('info');

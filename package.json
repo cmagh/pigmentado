@@ -3,7 +3,7 @@
     "type": "module",
     "scripts": {
         "build": "vite build && vite build --ssr",
-        "dev": "vite"
+        "dev": "concurrently \"vite\" \"vite build --ssr --watch\" \"nodemon\""
     },
     "devDependencies": {
         "@inertiajs/vue3": "^1.0.14",
@@ -15,9 +15,10 @@
         "axios": "^1.7.4",
         "concurrently": "^9.0.1",
         "laravel-vite-plugin": "^1.0",
+        "nodemon": "^3.1.10",
         "postcss": "^8.4.32",
         "tailwindcss": "^3.4.0",
-        "vite": "^5.0",
+        "vite": "^7.0.6",
         "vue": "^3.3.13"
     }
 }
