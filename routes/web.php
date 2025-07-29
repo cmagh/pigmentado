@@ -20,6 +20,10 @@ Route::get('/render', function () {
     return Inertia::render('Render', ['name' => 'Miguel Angel']);
 });
 
+Route::get('/render2', function () {
+    return Inertia::render('Render', ['name' => 'Miguel Angel']);
+});
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
