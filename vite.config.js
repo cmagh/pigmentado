@@ -8,9 +8,8 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/css/styles.css',
-                'resources/css/portafolio.css',
                 'resources/js/app.js',
-                'resources/js/web/app.js',,
+                'resources/js/web/app.js',
                 'resources/js/web/portfolio.js'
             ],
             ssr: 'resources/js/ssr.js',
