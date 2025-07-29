@@ -16,7 +16,7 @@ Route::get('/inertia', function () {
     ]);
 });
 
-Route::get('/render', function () {
+Route::get('/render1', function () {
     return Inertia::render('Render', ['name' => 'Miguel Angel']);
 });
 
