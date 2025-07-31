@@ -2,9 +2,8 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "npx vite build && npx vite build --ssr",
-        "dev": "concurrently \"vite\" \"vite build --ssr --watch\" \"nodemon\"",
-        "prod": "vite build && vite build --ssr"
+        "build": "vite build && vite build --ssr",
+        "dev": "concurrently \"vite\" \"vite build --ssr --watch\" \"nodemon\""
     },
     "devDependencies": {
         "@inertiajs/vue3": "^1.0.14",

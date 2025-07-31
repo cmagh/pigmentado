@@ -8,6 +8,7 @@
 /storage/*.key
 /storage/pail
 /vendor
+/rsync
 .env
 .env.backup
 .env.production
@@ -23,6 +24,7 @@ composer.lock
 package-lock.json
 nodemon.json
 .htaccess
+deploy.sh
 /.fleet
 /.idea
 /.nova
