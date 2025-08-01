@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "build": "vite build && vite build --ssr",
-        "dev": "concurrently \"vite\" \"vite build --ssr --watch\" \"nodemon\""
+        "dev": "concurrently \"vite\" \"vite build --ssr --watch\" \"nodemon\"",
+        "deploy": "bash deploy.sh"
     },
     "devDependencies": {
         "@inertiajs/vue3": "^1.0.14",
