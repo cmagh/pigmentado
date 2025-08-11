@@ -14,7 +14,7 @@ defineProps({
     }
 });
 
-let arr = reactive([1,2,3,4,5,6,7,8]);
+let arr = reactive([1,2,3,4,5,6,7,8,9]);
 
 let chunk = computed(() => {
     return _.chunk(arr, 4)
