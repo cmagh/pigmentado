@@ -25,6 +25,7 @@ package-lock.json
 nodemon.json
 .htaccess
 deploy.sh
+post-merge
 /.fleet
 /.idea
 /.nova
