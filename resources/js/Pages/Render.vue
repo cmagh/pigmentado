@@ -2,6 +2,7 @@
 import { reactive, computed } from 'vue';
 import { Head, Link } from '@inertiajs/vue3';
 import _ from 'lodash'
+import { sum } from 'es-toolkit'
 
 defineProps({    
     name: {
@@ -19,6 +20,10 @@ let chunk = computed(() => {
     return _.chunk(arr, 4)
 })
 
+let suma = computed(() => {
+    return sum(arr)
+})
+
 
 
 </script>
@@ -29,6 +34,7 @@ let chunk = computed(() => {
         <h1>{{ name }}</h1>  
         <h2>{{ test }}</h2>
         <pre>{{ chunk }}</pre>
+        <pre> {{ suma }} </pre>
         <Link href="/">Home</Link>
     
     </div>
